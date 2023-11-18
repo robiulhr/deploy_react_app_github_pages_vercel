@@ -6,16 +6,19 @@ import Profile from "./profile";
 import Home from "./home";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/profile",
-    element: <Profile />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/profile",
+      element: <Profile />,
+    },
+  ],
+  { basename: import.meta.env.BASE_URL }
+);
 
 export default function App() {
   return (
