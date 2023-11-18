@@ -26,8 +26,10 @@ Deploy React app on both GitHub pages and Vercel
 
 Project has been deployed on
 
--
+- https://deploy-react-app-github-pages-vercel.vercel.app/
 
-- ***
+- https://robiulhr.github.io/deploy_react_app_github_pages_vercel/
 
-Check the article
+---
+
+Check the [article]()
