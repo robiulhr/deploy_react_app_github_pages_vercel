@@ -32,4 +32,4 @@ Project has been deployed on
 
 ---
 
-Check the [article]()
+Check the [article](https://robiul.dev//deploy-vite-react-app-on-both-github-pages-and-vercel)
